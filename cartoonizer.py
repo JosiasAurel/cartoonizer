@@ -6,7 +6,7 @@ import numpy as np
 st.title("Cartoonizer")
 st.write("Convert your images into cartoon photos")
 
-image = st.file_uploader("Import Image", type=["png", "jpeg"])
+image = st.file_uploader("Import Image", type=["png", "jpeg", "jpg"])
 if image is not None:
     # print(image.read())
     image_ = np.array(Image.open(image))
