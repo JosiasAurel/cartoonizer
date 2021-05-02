@@ -10,4 +10,4 @@ sketch_gray, sketch_color = cv2.pencilSketch(image_, sigma_s=60, sigma_r=0.07, s
 ```
 It uses Streamlit to provide an interface for using the app.
 
-Yoi can find the live app [here](https://share.streamlit.io/josiasaurel/cartoonizer/cartoonizer.py)
+You can find the live app [here](https://share.streamlit.io/josiasaurel/cartoonizer/cartoonizer.py)
